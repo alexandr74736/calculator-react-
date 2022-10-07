@@ -1,6 +1,5 @@
 import React from 'react';
 import css from './ItemValue.module.css';
-import Slider from '../Slider/Slider';
 
 const ItemValue = (props) => {
     let rub = '₽'
