@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.header__title {
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #111111;
+}
+
+@media (min-width: 1440px) {
+    .header {
+        margin-bottom: 2.222vw;
+    }
+
+    .header__title {
+        font-size: 3.75vw;
+    }
+}
+
+@media (max-width: 1439px) {
+    .header {
+        margin-bottom: 44px;
+    }
+
+    .header__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        margin-bottom: 32px;
+    }
+
+    .header__title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 319px) {
+    .header {
+        margin-bottom: 2.222vw;
+    }
+
+    .header__title {
+        font-size: 10.625vw;
+    }
+}
